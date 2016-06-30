@@ -1,3 +1,10 @@
+
+def fizzbuzz(number)
+  (number % 3 == 0 && number % 5 == 0) ? "fizzbuzz" : (number % 3 == 0 ? "fizz" : (number % 5 == 0 ? "buzz" : number))
+end
+
+
+=begin
 def fizzbuzz(number)
   if number % 3 == 0 && number % 5 == 0
     "fizzbuzz"
@@ -9,3 +16,4 @@ def fizzbuzz(number)
     number
   end
 end
+=end
